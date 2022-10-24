@@ -1,0 +1,20 @@
+body {
+  background-color: #e1f2fb;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  color:#66BFBF;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h3 {
+  color:#66BFBF;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: white;
+  border-width: 5px;
+  width: 5%;
+}
