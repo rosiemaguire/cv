@@ -22,9 +22,11 @@ hr {
   width: 5%;
 }
 
+/*
 img:hover {
   background-color: gold;
 }
+*/
 
 /**************************CLASS SELECTORS**************************/
 .circular {
