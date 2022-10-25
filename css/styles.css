@@ -1,0 +1,43 @@
+/**************************TAG SELECTORS**************************/
+body {
+  background-color: #e1f2fb;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color:#66BFBF;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3 {
+  color:#66BFBF;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+hr {
+  border-color: white;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  width: 5%;
+}
+
+img:hover {
+  background-color: gold;
+}
+
+/**************************CLASS SELECTORS**************************/
+.circular {
+  border-radius: 40%;
+}
+
+.linkpage:hover {
+  background-color:cornflowerblue;
+}
+/**************************ID SELECTORS**************************/
+#profilepic:hover {
+  border-radius: 0%;
+  transform: rotate(90deg);
+  animation-name: appear;
+  animation-duration: 5s;
+}
