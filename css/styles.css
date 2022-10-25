@@ -37,7 +37,9 @@ img:hover {
 /**************************ID SELECTORS**************************/
 #profilepic:hover {
   border-radius: 0%;
-  transform: rotate(90deg);
-  animation-name: appear;
-  animation-duration: 5s;
+}
+
+#sullyhead:hover {
+  transition: 10s;
+  transform: rotate(3600deg);
 }
