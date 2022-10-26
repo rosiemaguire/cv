@@ -36,12 +36,29 @@ img:hover {
 .linkpage:hover {
   background-color:cornflowerblue;
 }
+
 /**************************ID SELECTORS**************************/
 #profilepic:hover {
   border-radius: 0%;
 }
 
+#sullyhead {
+  animation-name: rotate;
+  animation-iteration-count: 1;
+  animation-play-state: running;
+  animation-duration: 8s;
+}
+
 #sullyhead:hover {
-  transition: 10s;
-  transform: rotate(3600deg);
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+}
+
+@keyframes rotate {
+  0% {
+    transform:rotate(0);
+  }
+  100% {
+    transform:rotate(3600deg);
+  }
 }
