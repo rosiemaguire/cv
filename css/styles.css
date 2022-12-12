@@ -179,15 +179,20 @@ ul {
     margin:50px auto;
     padding-right: 10px;
   }  
+  .middle-container {
+    width:75%;
+  }
   #sullyhead {
     position:inherit;
     margin-bottom: 20%;
   }
 }
 @media (max-width: 697px) {
-
   .footer-link {
     margin: 0 9px;
+  }
+  #sullyhead {
+    width: 70%;
   }
   #sullyhead:hover {
     animation-play-state: running;
