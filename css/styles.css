@@ -174,12 +174,13 @@ ul {
   #sullyhead {
     position:inherit;
     margin-bottom: 20%;
+    max-width: 100%;
   }
 }
 @media (max-width: 697px) {
 
   .footer-link {
-    margin: 0 25px;
+    margin: 0 10px;
   }
   #sullyhead:hover {
     animation-play-state: running;
