@@ -47,13 +47,14 @@ ul {
   vertical-align: top;
 }
 .bottom-container{
-  padding: 100px 0 20px;
+  padding: 20px 0 20px;
 }
 .bottom-container,.selling-points {
-  /* display: inline-block; */
+  display: inline-block;
   text-align: center;
-  vertical-align: bottom;
+  vertical-align: middle;
   width:100%;
+  max-width: 100%;
 }
 .edu-learn {
   display: inline-table;
@@ -98,7 +99,7 @@ ul {
 .footer-link {
   margin: 0 30px;
   font-weight: 700;
-  font-size:1.1rem;
+  font-size:1rem;
 }
 
 /**************************BUTTONS**************************/
@@ -152,5 +153,35 @@ ul {
   }
   100% {
     transform:rotate(3600deg);
+  }
+}
+
+@media (max-width: 1430px) {
+
+#sullyhead {
+  right:50%;
+}
+}
+@media (max-width: 1270px) {
+  .righties {
+    float:none;
+  }
+  .hobbies {
+    margin:50px auto;
+    padding-right: 10px;
+  }  
+
+  #sullyhead {
+    position:inherit;
+    margin-bottom: 20%;
+  }
+}
+@media (max-width: 697px) {
+
+  .footer-link {
+    margin: 0 25px;
+  }
+  #sullyhead:hover {
+    animation-play-state: running;
   }
 }
