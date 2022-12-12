@@ -131,6 +131,10 @@ ul {
 }
 
 /**************************ID SELECTORS**************************/
+#profilepic {
+  width: 49%;
+  height: 49%;
+}
 #profilepic:hover {
   border-radius: 0%;
 }
@@ -170,7 +174,10 @@ ul {
     margin:50px auto;
     padding-right: 10px;
   }  
-
+#profilepic {
+  width: 75%;
+  height: 75%;
+}
   #sullyhead {
     position:inherit;
     margin-bottom: 20%;
@@ -180,7 +187,7 @@ ul {
 @media (max-width: 697px) {
 
   .footer-link {
-    margin: 0 10px;
+    margin: 0 7px;
   }
   #sullyhead:hover {
     animation-play-state: running;
