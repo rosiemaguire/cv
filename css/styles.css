@@ -181,7 +181,6 @@ ul {
   #sullyhead {
     position:inherit;
     margin-bottom: 20%;
-    max-width: 100%;
   }
 }
 @media (max-width: 697px) {
@@ -192,4 +191,10 @@ ul {
   #sullyhead:hover {
     animation-play-state: running;
   }
+}
+@media (max-width: 501px) {
+#profilepic {
+  width: 10%;
+  height: 10%;
+}
 }
