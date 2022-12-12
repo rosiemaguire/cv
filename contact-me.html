@@ -11,25 +11,50 @@
 
 <body>
   <h1>My Contact Details</h1>
-  <p><a class="linkpage" href="https://au.linkedin.com/in/rosie-maguire-515777230">Linked In</a></p>
-  <p>Email: <a class="linkpage" href="mailto: fake.email@test.com">fake.email@test.com</a></p>
-  <p>Phone: <a class="linkpage" href="tel:1300367770">1300 367 770</a></p>
-  <p>Address:
-  <address>101 Moray Street, South Melbourne VIC 3205</address>
-  </p>
+
+  <div class="main-content">
+  <div class="middle-container">
+    <p><a href="https://au.linkedin.com/in/rosie-maguire-515777230">Linked In</a></p>
+    <p>Email: <a href="mailto: fake.email@test.com">fake.email@test.com</a></p>
+    <p>Phone: <a href="tel:1300367770">1300 367 770</a></p>
+    <p>Address:
+    <address>101 Moray Street, South Melbourne VIC 3205</address>
+    </p>
+  </div>
+
   <hr>
-  <form action="mailto:fake.email@test.com" method="post" enctype="text/plain">
-    <label>Your Name:</label>
-    <input type="text" name="yourName"><br>
-    <label>Your Email:</label>
-    <input type="email" name="yourEmail"><br>
-    <label>Your Message:</label>
-    <textarea name="yourMessage" id="" cols="30" rows="10"></textarea>
-    <input type="submit">
+
+  <form class="middle-container" action="mailto:fake.email@test.com" method="post" enctype="text/plain">
+    <table cellspacing="10">
+      <tr>
+        <td>
+          <label>Your Name:</label>
+        </td>
+        <td>
+          <input type="text" name="yourName">
+        </td>
+      </tr>
+      <tr>
+        <td><label>Your Email:</label></td>
+        <td>
+          <input type="email" name="yourEmail">
+        </td>
+      </tr>
+      <tr>
+        <td><label>Your Message:</label></td>
+        <td><textarea name="yourMessage" cols="30" rows="10"></textarea></td>
+      </tr>
+    </table>
+    <input class="btn" type="submit">
   </form>
-  <br>
-  <a class="linkpage" href="hobbies.html">My Hobbies</a>
-  <br>
-  <a class="linkpage" href="index.html">CV</a>
+
+</div>
+
+  <div class="bottom-container">
+    <a class="footer-link" href="index.html">Back to Main Page</a>
+    <a class="footer-link" href="hobbies.html">My Hobbies</a>
+    <a class="footer-link" href="https://rosie.maguire.gitub.io/CSS---My-Site/">Alternate CV Website</a>
+  </div>
 </body>
+
 </html>
