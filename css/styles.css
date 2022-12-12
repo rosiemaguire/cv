@@ -16,7 +16,7 @@ body {
 h1 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 4rem;
-  padding: 50px 0;
+  padding: 50px 0 20px;
 }
 a,h1,h2,h3 {
   color:#66BFBF; 
@@ -91,9 +91,11 @@ ul {
   overflow-y: hidden;
   overflow-x: hidden;
 }
-
+.lefties {
+  float: left;
+}
 .righties {
-  float:right;
+  float: right;
 }
 /**************************LINK/URL CLASS SELECTORS**************************/
 .footer-link {
@@ -131,10 +133,10 @@ ul {
 }
 
 /**************************ID SELECTORS**************************/
-#profilepic {
+/* #profilepic {
   width: 49%;
   height: 49%;
-}
+} */
 #profilepic:hover {
   border-radius: 0%;
 }
@@ -161,23 +163,22 @@ ul {
 }
 
 @media (max-width: 1430px) {
-
 #sullyhead {
   right:50%;
 }
 }
 @media (max-width: 1270px) {
-  .righties {
+  .blurb {
+    text-align: center;
+    padding: 0 5px;
+  }
+  .lefties,.righties {
     float:none;
   }
   .hobbies {
     margin:50px auto;
     padding-right: 10px;
   }  
-#profilepic {
-  width: 75%;
-  height: 75%;
-}
   #sullyhead {
     position:inherit;
     margin-bottom: 20%;
@@ -186,15 +187,9 @@ ul {
 @media (max-width: 697px) {
 
   .footer-link {
-    margin: 0 7px;
+    margin: 0 9px;
   }
   #sullyhead:hover {
     animation-play-state: running;
   }
-}
-@media (max-width: 501px) {
-#profilepic {
-  width: 10%;
-  height: 10%;
-}
 }
