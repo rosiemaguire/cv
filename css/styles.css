@@ -54,7 +54,6 @@ ul {
   text-align: center;
   vertical-align: middle;
   width:100%;
-  max-width: 100%;
 }
 .edu-learn {
   display: inline-table;
@@ -133,10 +132,6 @@ ul {
 }
 
 /**************************ID SELECTORS**************************/
-/* #profilepic {
-  width: 49%;
-  height: 49%;
-} */
 #profilepic:hover {
   border-radius: 0%;
 }
@@ -168,20 +163,26 @@ ul {
 }
 }
 @media (max-width: 1270px) {
+  h1 {
+    padding: 20px 0 10px;
+  }
   .blurb {
     text-align: center;
     margin: 0 15px;
+    padding-bottom: 0.67rem;
   }
+  .hobbies {
+    margin:50px auto;
+  }  
   .lefties,.righties {
     float:none;
     text-align: center;
   }
-  .hobbies {
-    margin:50px auto;
-    /* padding-right: 10px; */
-  }  
   .middle-container {
     width:75%;
+  }
+  #profilepic {
+    margin-top: 0.67rem;
   }
   #sullyhead {
     position:inherit;
