@@ -142,7 +142,7 @@ ul {
   animation-duration: 8s;
   animation-timing-function: linear;
   position: relative;
-  right: 120%;
+  right: 300px;
   border-radius: 20%;
 }
 #sullyhead:hover {
@@ -157,9 +157,9 @@ ul {
   }
 }
 
-@media (max-width: 1430px) {
+@media (max-width: 1490px) {
 #sullyhead {
-  right:50%;
+  right:200px;
 }
 }
 @media (max-width: 1270px) {
