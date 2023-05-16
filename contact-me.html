@@ -13,36 +13,26 @@
   <h1>Contact Me</h1>
 
   <div class="main-content">
-  <div class="middle-container">
-    <p><a href="https://au.linkedin.com/in/rosie-maguire-515777230">Linked In</a></p>
-    <p>Email: <a href="mailto: briars.rouge_01@icloud.com">hide.my.email@icloud.com</a></p>
-    <p>Phone: <a href="tel:1300367770">1300 367 770</a></p>
-    <p>Address:
-    <address>101 Moray Street, South Melbourne VIC 3205</address>
-    </p>
-  </div>
 
-  <hr>
-
-  <form class="middle-container" action="mailto:briars.rouge_01@icloud.com" method="post" enctype="text/plain">
+  <form class="middle-container" action="https://formspree.io/f/xbjebpdp" method="post" enctype="text/plain">
     <table cellspacing="10">
       <tr>
         <td>
-          <label>Your Name:</label>
+          <label for="your-name">Name:</label>
         </td>
         <td>
-          <input type="text" name="yourName">
+          <input type="text" name="Name" id="your-name">
         </td>
       </tr>
       <tr>
-        <td><label>Your Email:</label></td>
+        <td><label for="email">Email:</label></td>
         <td>
-          <input type="email" name="yourEmail">
+          <input type="email" name="Email" id="email">
         </td>
       </tr>
       <tr>
-        <td><label>Your Message:</label></td>
-        <td><textarea name="yourMessage" cols="30" rows="10"></textarea></td>
+        <td><label for="message">Message:</label></td>
+        <td><textarea name="Message" id="message" cols="30" rows="10"></textarea></td>
       </tr>
     </table>
     <input class="btn" type="submit">
